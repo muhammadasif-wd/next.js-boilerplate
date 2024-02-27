@@ -1,0 +1,8 @@
+# dependencies
+/node_modules
+/out
+.yarn
+.pnp.cjs
+.pnp.loader.mjs
+.next
+yarn.lock

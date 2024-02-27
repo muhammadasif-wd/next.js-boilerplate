@@ -1,0 +1,94 @@
+{
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Andromeda Italic",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.iconTheme": "material-icon-theme",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.minimap.size": "fill",
+    "editor.minimap.showSlider": "always",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "eslint.format.enable": true,
+    "eslint.run": "onSave",
+    "editor.formatOnSave": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "todo-tree.tree.tagsOnly": true,
+    "git.enableSmartCommit": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": true
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": true
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": true
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": true
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": true
+        }
+    ],
+    "workbench.editorAssociations": {
+        "*.md": "vscode.markdown.preview.editor"
+    },
+    "workbench.editor.empty.hint": "hidden",
+    "explorer.confirmDelete": false,
+    "cSpell.userWords": [
+        "tailwindcss"
+    ],
+    "tailwindCSS.emmetCompletions": true,
+    "gitlens.graph.minimap.additionalTypes": [
+        "localBranches",
+        "stashes",
+        "tags",
+        "remoteBranches"
+    ],
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "cSpell.words": [
+        "ASIF",
+        "iconify",
+        "nextui"
+    ]
+}

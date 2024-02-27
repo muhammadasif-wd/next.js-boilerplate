@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  @apply h-2 w-2;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply rounded-full bg-white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-primary/70;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply rounded-full bg-primary/70;
+}
+
+/* Dashboard - css */
+.dashboard_large_circle {
+  background-image: url("../../public/images/dashboard_large_circle.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 60%;
+  height: 60%;
+}

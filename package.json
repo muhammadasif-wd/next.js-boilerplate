@@ -15,7 +15,12 @@
     "preview": "vite preview"
   },
   "lint-staged": {
-    "**/*.{ts,tsx}": []
+    "**/*.{ts,tsx}": [
+      "npm run lint:fix",
+      "npm run format:fix",
+      "npm run format",
+      "npm run lint:eslint"
+    ]
   },
   "husky": {
     "hooks": {
